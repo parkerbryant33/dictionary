@@ -63,10 +63,10 @@ print("*****  start section 5 - iterate through keys ********")
 print()
 
 for k in phonebook:
-    print k
+    print(k)
 
 for k in phonebook:
-    print (phonebook[k])
+    print(phonebook[k])
 
 print()
 print("*****  end section 5 ********")
@@ -77,7 +77,7 @@ print()
 print("*****  start section 6 - iterate through values  ********")
 print()
 
-for v in phonebook.value():
+for v in phonebook.values():
     print(v)
 
 print()
@@ -89,11 +89,12 @@ print()
 print("*****  start section 7 - iterate through both key and value pair********")
 print()
 
-for pair in phonebook.items()
+for pair in phonebook.items():
     print(pair)
     print(type(pair))
-
-for k,v
+"""
+for k,v:
+    """
 print()
 print("*****  end section 7 ********")
 print()
@@ -103,9 +104,9 @@ print()
 print("*****  start section 8 - using random and converting to list ********")
 print()
 
-#clear method deletes all the elements in a dictionary leaving it empty
-#get method gets a value associated with specifed key from dictionary
-#popitem method NOT WORKING returns a randomly selected key value pair and removes that key value pair from the dictionary
+# clear method deletes all the elements in a dictionary leaving it empty
+# get method gets a value associated with specifed key from dictionary
+# popitem method NOT WORKING returns a randomly selected key value pair and removes that key value pair from the dictionary
 
 
 print()
